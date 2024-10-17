@@ -1,0 +1,127 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth; /* Enables smooth scrolling */
+}
+
+/* Body Styles */
+body {
+  background-color: #f8f8f8; /* Light background for body */
+}
+
+/* Navigation Bar */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 75px;
+  background: #27ae60; /* New color: Calming green for navigation bar */
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+  z-index: 1000; /* Ensures the navbar stays on top */
+}
+
+/* Navbar container to align content */
+nav .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  max-width: 90%;
+  margin: auto;
+}
+
+/* Logo Styles */
+nav .navbar .logo a {
+  color: #fff; /* White text for logo */
+  font-size: 27px;
+  font-weight: 600;
+  text-decoration: none; /* No underline */
+}
+
+/* Menu Container */
+nav .navbar .menu {
+  display: flex; /* Display menu items in a row */
+}
+
+/* Menu List Items */
+.navbar .menu li {
+  list-style: none;
+  margin: 0 15px; /* Spacing between menu items */
+}
+
+/* Menu Links */
+.navbar .menu li a {
+  color: #fff; /* White text for menu items */
+  font-size: 17px;
+  font-weight: 500;
+  text-decoration: none; /* No underline for links */
+  transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+/* Hover Effect on Menu Links */
+.navbar .menu li a:hover {
+  color: #d4efdf; /* Lighter green color on hover */
+}
+
+/* Section Styling */
+section {
+  display: flex;
+  height: 100vh; /* Full viewport height */
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-size: 70px;
+  color: #2e4053; /* Darker color for section text */
+  text-align: center; /* Centering text */
+}
+
+/* Home Section */
+#Home {
+  background: #eafaf1; /* Light green background */
+}
+
+/* Services Section */
+#Services {
+  background: #f7f7f7; /* Light gray background */
+}
+
+/* Adoption Section */
+#Adoption {
+  background: #eafaf1; /* Matching green tone */
+}
+
+/* Contact Section */
+#Contact {
+  background: #f7f7f7; /* Consistent light gray background */
+}
+
+/* Testimonials Section */
+#Testimonials {
+  background: #eafaf1; /* Another light green background */
+}
+
+/* Scroll-to-Top Button */
+.button a {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #fff; /* White text for the button */
+  background: #27ae60; /* Matching green background for button */
+  padding: 7px 12px;
+  font-size: 18px;
+  border-radius: 6px; /* Rounded corners */
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); /* Light shadow for button */
+  transition: background 0.3s; /* Smooth background transition */
+}
+
+/* Hover Effect on Scroll Button */
+.button a:hover {
+  background: #229954; /* Slightly darker green on hover */
+}
